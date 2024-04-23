@@ -1,0 +1,103 @@
+/* Define a fonte e zera os valores da página */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+}
+
+/* Alinha os itens e define display flex */
+.login{
+    display: flex;
+    align-items: stretch;
+}
+
+/* Faz a barra lateral vermelha e alinhas as imagens*/
+.logo {
+    background-color: #AD3333;
+    width: 50%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  } 
+
+/* define o fundo da área de login e alinhas os itens */
+.inputLogin{
+    background-color: #FFE4E1;
+    width: 50%;
+    align-items: center;
+}
+
+/* Alinha os itens da área de lembrar senha */
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: flex-start;    
+}
+
+
+/* Alinha os itens de lembrar senha e recuperar senha */
+.checkSenha{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Alinha o titulo do login */
+.h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}   
+
+/* Início do alinhamento da área da senha */
+.senha{
+    padding-top: 50px;
+}
+
+#senhaInput{
+    margin-bottom: 20px;
+}
+/* Alinhamento da área da senha */
+
+/* Faz com que os inputs fiquem alinhados */
+input{
+    display: inline-block;
+    padding-left: 2%;
+}
+
+/* Personaliza as caixas de input */
+.input{
+    border-radius: 50px;
+    border: white;
+    width: 75%;
+    height: 7%;
+}
+
+/* Alinha os itens da área de login */
+.geralLogin{
+    height: 100vh; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+}
+
+/* Dá o tamanho das logos */
+.senaiLogo{
+    width: 80%;
+}
+
+.chaveLogo{
+    width: 50%;
+}
+
+/* Personaliza os botões */
+.button{
+    height: 5vh;
+    border-radius: 50px;
+    background-color: #FF3E3E;
+    margin-top: 20px;
+}

@@ -1,0 +1,107 @@
+/* Personaliza e organiza toda a navbar e faz uma linha para divisória*/
+.navbar{ 
+    display: block;
+    border-right: 2px solid rgb(218,220,224);
+    width: 13%;
+    background-color: #FFE4E1;
+
+    height: 100vh;
+}
+
+
+  /* Personalizam a barra lateral */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 1vw;
+  }
+  
+  .sidebar ul li button {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 0.2vw 1vw;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li button img {
+    width: 1.6vw;
+    margin-right: 10px;
+  }
+  
+
+  /* Personaliza o menu dropdown */
+.turmaDropdown{
+  display: flex;
+    list-style-type: none;
+    height: 4vh;
+    width: 8vw;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 1.7vw;
+}
+
+/* Personaliza a divisória */
+.border{
+    margin-top: 1vw;
+    border-bottom: 2px solid rgb(218,220,224);
+    width: 100%;
+}
+
+
+
+/* Personaliza o botão de configuração */
+#buttonConfig{
+    padding-bottom: 7vw;
+}
+
+/* Personaliza o botão de adicionar tarefas */
+.buttonTarefa{
+    height: 6%;
+    width: 6vw;
+    border-radius: 50px;
+    background-color: #FF3E3E;
+    margin-left: 0.5vw;
+    color: white;
+}
+
+/* Personaliza o botão de apagar a tarefa */
+.buttonTarefaDeletar{
+    height: 5%;
+    width: 7vw;
+    border-radius: 50px;
+    background-color: #FF3E3E;
+    margin-top: 20px;
+    margin-left: 8px;
+
+}
+
+/* Personaliza a área da lista de tarefas */
+.formTarefa{
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 0.5vw;
+}
+
+/* Personaliza a área de adicionar as tarefas */
+#input-entrada{
+    border-radius: 50px;
+    border: white;
+    width: 9vw;
+    height: 4vh;
+}
+
+/* Personaliza o título da lista de tarefas */
+.tituloTarefa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+
+#lista{
+  background-color: #FFE4E1;
+}

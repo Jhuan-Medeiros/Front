@@ -1,0 +1,12 @@
+::-webkit-scrollbar{
+    /* Faz com que seja personalizado o fundo da barra de scroll */
+    width: 10px;
+    background-color: #781B1B;
+}
+
+::-webkit-scrollbar-thumb{     
+    /* Faz com que seja personalizado a barra de scroll */ 
+    width: 10px;
+    background-color: #AD3333;
+    border-radius: 20px;
+}

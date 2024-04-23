@@ -1,0 +1,166 @@
+html{
+    background-color: #FFE4E1;
+}
+
+.detalhesAluno{
+    background-color: #FFE4E1;
+}
+
+.infoAluno {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anotacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputAnotacao{
+    width: 77vw;
+    height: 15vh;
+    border-radius: 30px;
+}
+
+.inputOcorrencia{
+    display: flex;
+    flex-direction: column;
+}
+
+.outros{
+    display: flex;
+}
+
+.teste2{
+    margin-right: 105px;
+}
+
+.infoApi{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-end;
+}
+
+.inputAlunos{
+    border-radius: 30px;
+    width: 20vw;
+    height: 3vh;
+    margin-bottom: 15px;
+}
+
+.inputOutros{
+    border-radius: 30px;
+    width: 15vw;
+}
+
+.linha3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+
+.quebraLinha{
+    display: flex;
+}
+
+.fotoAluno {
+    width: 30vh;
+    border-radius: 20px;
+}
+
+.tituloAlunos{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: #291502;
+    margin-bottom: 10px;
+}
+
+.tituloOcorrencia{
+    display: flex;
+    font-size: x-large;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.inputOcorrencia{
+    font-size: 17px;
+    
+}
+
+.margin{
+    margin-bottom: 12px;
+}
+
+#horario{
+    border-radius: 30px;
+    width: 10vw;
+    height: 3vh;
+    margin-bottom: 4%;
+}
+
+.horario{
+    font-size: larger;
+}
+
+.professor{
+    font-size: larger;
+    display: flex;
+    border-radius: 30px;
+    width: 10vw;
+    height: 3vh;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.buttonOcorrencia {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid black; /* Substitua $green pela cor desejada */
+    color: black; /* Substitua $green pela cor desejada */
+    letter-spacing: 1px;
+    text-shadow: none; /* Não é necessário definir como 0, pode ser simplesmente 'none' */
+    font-size: 12px; /* Corrigido para definir o tamanho da fonte */
+    font-weight: bold; /* Corrigido para definir o peso da fonte */
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-bottom: 2vw;
+}
+
+.buttonOcorrencia:hover {
+    color: white;
+    background: #058d05; /* Substitua $green pela cor desejada */
+}
+
+.buttonOcorrencia:active {
+    letter-spacing: 2px;
+}
+
+.radio{
+    margin-right: 7px;
+}
+
+.NavbarDetalhesAlunos{
+    display: flex ;
+    height: 90vh;
+}
+
+.navbarAlunos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+}
+
+.navbar{
+    height: 70vh;
+}
+
+.sidebar{
+    height: 70vh;
+}

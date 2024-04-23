@@ -1,0 +1,54 @@
+.alunos{
+    height: 100%;
+    background-color: #FFE4E1;
+}
+
+.flexAlunos{
+    display: flex;
+}
+
+.listaAlunos{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
+    align-items: center;
+    
+}
+
+.aluno img {
+    width: 100%;
+    border-radius: 40%; /* Para deixar as imagens redondas */
+    margin-bottom: 25px;
+    margin-top: 40px;
+  }
+
+  .alunoFoto {
+    width: 80%; /* Garante que a imagem ocupe toda a largura do elemento */
+    height: 200px; /* Ajuste a altura conforme necessário */
+    border-radius: 50%; /* Para deixar as imagens redondas */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.alunostudo{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.alunoNome{
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aluno{
+    text-decoration: none;
+}

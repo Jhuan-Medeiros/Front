@@ -1,0 +1,104 @@
+/* Define a fonte */
+*{
+    font-family: "Inter";
+}
+
+/* Define tamanho da gome e fundo */
+.home{
+    height: 100vh;
+    background-color: #FFE4E1;
+}
+
+/* Define tamanho e alinha a logo */
+.senaiLogoHome{
+    width: 35%;
+    
+    margin-top: 19px;
+    margin-bottom: 25px;
+}
+
+/* Define tamanho e alinha a logo */
+.logoSenai{
+    width: 5%;
+    
+    margin-top: 19px;
+    margin-bottom: 25px;
+}
+
+/* Define tamanho, estiliza e alinha a barra de pesquisa */
+.inputHome{
+    border-radius: 20px;
+
+    width: 65vw;
+    height: 7vh;
+    margin-bottom: 25px;
+    background-color: #FFE4E1;
+}
+
+/* Alinha a área das turmas */
+.turma{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 6vw;
+}
+
+/* Estiliza e alinha a turmas */
+.dev,
+.mec,
+.ele{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+
+    width: 22vw;
+    height: 60vh;
+    border-radius: 25px;
+    box-shadow: 4px 3px 10px rgb(47, 46, 46);  
+    margin-top: 13vh;  
+}
+
+/* Estiliza e alinha as salas */
+.salas{
+    display: flex;
+    flex-direction: column;
+    background-color: #FF3E3E;
+    width: 22vw;
+    height: 39vh;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+/* Estiliza e alinha as salas da mecânica */
+.salasMec{
+    display: flex;
+    flex-direction: column;
+    background-color: #781B1B;
+    width: 22vw;
+    height: 39vh;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+/* Alinha o titulo e da seu tamanho */
+.titulo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+    font-size: 3vh;
+}
+
+/* Estiliza os nomes das turmas */
+.styleHref{
+    color: white;
+    text-decoration: none;
+}
+

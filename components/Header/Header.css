@@ -1,0 +1,27 @@
+/* Alinha as informações e define o fundo */
+.header{
+    background-color: #AD3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vh;    
+    justify-content: space-around;
+}
+
+.logoSenai{
+  background-color: #AD3333;
+  border: none;
+  width: 100%;
+}
+
+.logoSenai img{
+  width: 25%;
+}
+
+.linkagem{
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
